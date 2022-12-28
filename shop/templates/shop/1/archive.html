@@ -1,0 +1,11 @@
+
+{% extends "shop/base.html" %}
+{% load i18n %}
+<img src="{{ STATIC_URL}}/shop/templates/shop/1/2.jpg" />
+{% block title %}
+{% endblock %}
+{% block content %}
+<h1>{% trans "Thank you" %}</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3dYRN1rtncA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  {% endblocktrans %}
+{% endblock %}
